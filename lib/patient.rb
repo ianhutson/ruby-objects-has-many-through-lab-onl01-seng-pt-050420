@@ -21,6 +21,6 @@ class Patient
   end
 
   def new_appointment(date, doctor)
-    songs << song
+    Appointment.new
   end
 end
