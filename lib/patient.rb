@@ -20,7 +20,7 @@ class Patient
     appointments.map(&:doctor)
   end
 
-  def new_appointment(appointment)
+  def new_appointment(date, doctor)
     songs << song
   end
 end
