@@ -13,7 +13,7 @@ class Patient
   end
 
   def appointments
-    Appointment.all { |song| song.genre == self }
+    Appointment.all { |song| appointment.patient == self }
   end
 
   def doctors
