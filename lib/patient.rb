@@ -16,7 +16,7 @@ class Patient
     Appointment.all { |song| song.genre == self }
   end
 
-  def artists
+  def doctors
     songs.map(&:artist)
   end
 
