@@ -5,7 +5,7 @@ class Appointment
   def initialize(name, doctor, appointment)
     @name = name
     @appointment = appointment
-    @artist = artist
+    @artist = doctor
     @@all << self
   end
   
