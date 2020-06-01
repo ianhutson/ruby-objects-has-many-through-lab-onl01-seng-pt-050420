@@ -17,7 +17,7 @@ class Patient
   end
 
   def doctors
-    songs.map(&:artist)
+    appointments.map(&:doctor)
   end
 
   def new_appointment(appointment)
