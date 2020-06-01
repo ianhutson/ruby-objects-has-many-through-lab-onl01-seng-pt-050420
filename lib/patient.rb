@@ -12,7 +12,7 @@ class Patient
     @@all
   end
 
-  def songs
+  def appointments
     Song.all { |song| song.genre == self }
   end
 
