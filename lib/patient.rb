@@ -20,7 +20,7 @@ class Patient
     songs.map(&:artist)
   end
 
-  def add_song(song)
+  def new_appointment(appointment)
     songs << song
   end
 end
